@@ -1,3 +1,3 @@
 FROM tomcat:latest
-COPY cicd/webapp/target/webapp.war  /usr/local/tomcat/webapps
+COPY /var/lib/jenkins/workspace/cicd/webapp  /usr/local/tomcat/webapps
 
